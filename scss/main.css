@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.input__container {
+  border: 1px solid #333;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+.input__container:hover {
+  outline: 2px solid rgb(11, 11, 150);
+}
+
+.texarea__container {
+  border: 1px solid #333;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+.texarea__container:hover {
+  outline: 2px solid rgb(11, 11, 150);
+}
+
+.searcher__container {
+  display: flex;
+  justify-content: end;
+  margin: 2rem;
+}
+.searcher__container .input__container {
+  border-radius: 0.25rem;
+  width: 200px;
+}/*# sourceMappingURL=main.css.map */
