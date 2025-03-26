@@ -1,0 +1,15 @@
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    &-primary {
+        border: $btn-border-width $btn-border-style $primary-color;
+        color: $primary-color;
+        background-color: lighten($color: $primary-color, $amount: 70%);
+    }
+    &-secundary {
+        border: $btn-border-width $btn-border-style $secundary-color;
+        color: $secundary-color;
+        background-color: darken($color: $secundary-color, $amount: 55%);
+    }
+}
